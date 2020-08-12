@@ -8,5 +8,5 @@ A model-free algorithm is an algorithm that estimates the optimal policy without
 <li>Create a q-table that follows the shape of [state, action] and we initialize the q-table with random values.</li>
 <li>The agent select an action, it can select action from q-table which contain the highest q-value for a state, or select a random action and discover new states.
 <li>The agent interact with the environment and make updates to the state action pairs in our q-table Q[state, action] with formula:</li>
-<img src="images/formula.png" alt="q-learning formula" />
-<li> Loop for large amount of episodes so eventually it will converge to optimal q-value</li>
+<img src="images/formula.png" alt="q-learning formula">
+<li> Loop for large amount of episodes so eventually it will converge to optimal q-value</li></op></p>
