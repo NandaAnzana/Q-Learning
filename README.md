@@ -11,4 +11,4 @@ A model-free algorithm is an algorithm that estimates the optimal policy without
 <li>The agent interact with the environment and make updates to the state action pairs in our q-table Q[state, action] with formula:</li>
 <img src="images/Formula.png" alt="q-learning formula">
 <li> Loop for large amount of episodes so eventually it will converge to optimal q-value</li></op></p>
-<p>For further read about q-learning, you can read this superb <a href="https://link.springer.com/content/pdf/10.1007/BF00992698.pdf">technical note from <a href="http://www.cs.rhul.ac.uk/~chrisw/">Chris Watkins</a> and <a href="https://www.ed.ac.uk/profile/peter-dayan">Peter Dayan</a>.
+<p>For further read about q-learning, you can read this superb <a href="https://link.springer.com/content/pdf/10.1007/BF00992698.pdf">technical note </a>from <a href="http://www.cs.rhul.ac.uk/~chrisw/">Chris Watkins</a> and <a href="https://www.ed.ac.uk/profile/peter-dayan">Peter Dayan</a>.
