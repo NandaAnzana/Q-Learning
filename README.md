@@ -11,14 +11,14 @@ A model-free algorithm is an algorithm that estimates the optimal policy without
 <li>The agent interact with the environment and make updates to the state action pairs in our q-table Q[state, action] with formula:</li>
 <img src="images/Formula.png" alt="q-learning formula">
 <li> Loop for large amount of episodes so eventually it will converge to optimal q-value</li></op></p>
-<p>For further read about q-learning, you can read this superb <a href="https://link.springer.com/content/pdf/10.1007/BF00992698.pdf">technical note </a>from <a href="http://www.cs.rhul.ac.uk/~chrisw/">Chris Watkins</a> and <a href="https://www.ed.ac.uk/profile/peter-dayan">Peter Dayan</a>.
+<p>For further read about q-learning, you can read this superb <a href="https://link.springer.com/content/pdf/10.1007/BF00992698.pdf">technical note </a>from <a href="http://www.cs.rhul.ac.uk/~chrisw/">Chris Watkins</a> and <a href="https://www.ed.ac.uk/profile/peter-dayan">Peter Dayan</a>.</p>
 
 <h2>Q-Learning for Taxi problem from Openai gym</h2>
 
-<p> The Taxi Problem
-    from "Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition"
-    by <a href="https://eecs.oregonstate.edu/people/dietterich-thomas">Tom Dietterich</a>
-    Description:
+<p> The Taxi Problem<br>
+    from "Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition"<br>
+    by <a href="https://eecs.oregonstate.edu/people/dietterich-thomas">Tom Dietterich</a><br>
+    Description:<br>
     There are four designated locations in the grid world indicated by R(ed), G(reen), Y(ellow), and B(lue). When the episode starts, the taxi starts off at a random square and the passenger is at a random location. The taxi drives to the passenger's location, picks up the passenger, drives to the passenger's destination (another one of the four specified locations), and then drops off the passenger. Once the passenger is dropped off, the episode ends.
     Observations: 
     There are 500 discrete states since there are 25 taxi positions, 5 possible locations of the passenger (including the case when the passenger is in the taxi), and 4 destination locations. 
