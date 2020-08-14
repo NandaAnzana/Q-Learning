@@ -18,8 +18,10 @@ A model-free algorithm is an algorithm that estimates the optimal policy without
 <h2>Q-Learning for Taxi problem from Openai gym</h2>
 
 <p> The Taxi Problem<br>
+    <br>
     from "Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition"<br>
     by <a href="https://eecs.oregonstate.edu/people/dietterich-thomas">Tom Dietterich</a><br>
+    <br>
     Description:<br>
     There are four designated locations in the grid world indicated by R(ed), G(reen), Y(ellow), and B(lue). When the episode starts, the taxi starts off at a random square and the passenger is at a random location. The taxi drives to the passenger's location, picks up the passenger, drives to the passenger's destination (another one of the four specified locations), and then drops off the passenger. Once the passenger is dropped off, the episode ends.
     Observations: 
