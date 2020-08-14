@@ -10,7 +10,8 @@ A model-free algorithm is an algorithm that estimates the optimal policy without
 <p><ol>
 <li>Create a q-table that follows the shape of [state, action] and we initialize the q-table with random values.</li>
 <li>The agent select an action, it can select action from q-table which contain the highest q-value for a state, or select a random action and discover new states.</li>
-<li>The agent interact with the environment and make updates to the state action pairs in our q-table Q[state, action] with formula:<img src="images/Formula.png" alt="q-learning formula"/></li>
+<li>The agent interact with the environment and make updates to the state action pairs in our q-table Q[state, action] with formula:</li>
+<img src="images/Formula.png" alt="q-learning formula"/>
 <li> Loop for large amount of episodes so eventually it will converge to optimal q-value</li></ol></p>
 <p>For further read about q-learning, you can read this superb <a href="https://link.springer.com/content/pdf/10.1007/BF00992698.pdf">technical note </a>from <a href="http://www.cs.rhul.ac.uk/~chrisw/">Chris Watkins</a> and <a href="https://www.ed.ac.uk/profile/peter-dayan">Peter Dayan</a>.</p>
 
@@ -62,3 +63,20 @@ A model-free algorithm is an algorithm that estimates the optimal policy without
     (taxi_row, taxi_col, passenger_location, destination)
 </p>
 <img src="images/q-learning.gif">
+
+<h2>References</h2>
+
+<p><ul>
+<li>Youtube:<ul>
+<li><a href="https://www.youtube.com/watch?v=wN3rxIKmMgE" title="TheComputerScientist">An Introduction to Q-learning </a>by TheComputerScientist</li>
+<li><a href="https://www.youtube.com/playlist?list=PLQVvvaa0QuDezJFIOU5wDdfy4e9vdnx-7" title="RL by Sentdex">Reinforcement Learning playlist </a>by Sentdex</li>
+<li><a href="https://www.youtube.com/watch?v=FgzM3zpZ55o" title="RL by standfordonline">Stanford CS234: Reinforcement Learning</a></li></ul>
+</li>
+<li>Article:<ul>
+<li><a href="https://towardsdatascience.com/introduction-to-q-learning-88d1c4f2b49c" title="Introduction to Q-Learning">Introduction to Q-Learning</a> by Aneek Das</li>
+<li><a href="https://medium.com/@fin.techology/reinforcement-learning-introduction-to-q-learning-444c951e292c" title="Reinforcement Learning: Introduction to Q Learning">Reinforcement Learning: Introduction to Q Learning</a> by J Li</li>
+<li><a href="https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc/" title="An introduction to Q-Learning: reinforcement learning">An introduction to Q-Learning: reinforcement learning</a> by ADL</li></ul>
+</li></ul>
+
+
+That's all. Keep learning!</p>
